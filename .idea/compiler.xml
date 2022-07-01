@@ -26,7 +26,7 @@
       <module name="agent-domain" options="-parameters" />
       <module name="agent-domain-core" options="-parameters" />
       <module name="agent-messaging" options="-parameters" />
-      <module name="swarm-computing-system" options="-parameters" />
+      <module name="swarm-computing-system" options="" />
       <module name="swarm-service" options="-parameters" />
     </option>
   </component>

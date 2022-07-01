@@ -16,4 +16,10 @@
 
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.swarm.computing.system</groupId>
+            <artifactId>agent-application-service</artifactId>
+        </dependency>
+    </dependencies>
 </project>

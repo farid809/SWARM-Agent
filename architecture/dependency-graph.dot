@@ -1,0 +1,23 @@
+digraph "swarm-computing-system" {
+  node [shape="box",style="rounded",fontname="Helvetica",fontsize="14"]
+  edge [fontsize="10",fontname="Helvetica"]
+
+  // Node Definitions:
+  "com.swarm.computing.system:agent-application-service:jar:compile"[label=<agent-application-service>]
+  "com.swarm.computing.system:agent-domain-core:jar:compile"[label=<agent-domain-core>]
+  "com.swarm.computing.system:agent-application:jar:compile"[label=<agent-application>]
+  "com.swarm.computing.system:agent-dataaccess:jar:compile"[label=<agent-dataaccess>]
+  "com.swarm.computing.system:agent-messaging:jar:compile"[label=<agent-messaging>]
+  "com.swarm.computing.system:agent-container:jar:compile"[label=<agent-container>]
+
+  // Edge Definitions:
+  "com.swarm.computing.system:agent-application-service:jar:compile" -> "com.swarm.computing.system:agent-domain-core:jar:compile"
+  "com.swarm.computing.system:agent-application:jar:compile" -> "com.swarm.computing.system:agent-application-service:jar:compile"
+  "com.swarm.computing.system:agent-dataaccess:jar:compile" -> "com.swarm.computing.system:agent-application-service:jar:compile"
+  "com.swarm.computing.system:agent-messaging:jar:compile" -> "com.swarm.computing.system:agent-application-service:jar:compile"
+  "com.swarm.computing.system:agent-container:jar:compile" -> "com.swarm.computing.system:agent-application-service:jar:compile"
+  "com.swarm.computing.system:agent-container:jar:compile" -> "com.swarm.computing.system:agent-application:jar:compile"
+  "com.swarm.computing.system:agent-container:jar:compile" -> "com.swarm.computing.system:agent-dataaccess:jar:compile"
+  "com.swarm.computing.system:agent-container:jar:compile" -> "com.swarm.computing.system:agent-messaging:jar:compile"
+  "com.swarm.computing.system:agent-container:jar:compile" -> "com.swarm.computing.system:agent-domain-core:jar:compile"
+}

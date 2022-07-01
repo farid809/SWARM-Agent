@@ -16,4 +16,27 @@
 
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.swarm.computing.system</groupId>
+            <artifactId>agent-application-service</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.swarm.computing.system</groupId>
+            <artifactId>agent-application</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.swarm.computing.system</groupId>
+            <artifactId>agent-dataaccess</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.swarm.computing.system</groupId>
+            <artifactId>agent-messaging</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.swarm.computing.system</groupId>
+            <artifactId>agent-domain-core</artifactId>
+        </dependency>
+    </dependencies>
+
 </project>
