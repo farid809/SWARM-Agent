@@ -8,6 +8,9 @@
 
 Async
 
+## Project Structure
+
+![Dependencies](/architecture/Module_Dependencies.png)
 
 ## Agent Deployement
 
