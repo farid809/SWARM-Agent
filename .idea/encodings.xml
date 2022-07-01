@@ -6,6 +6,8 @@
     <file url="file://$PROJECT_DIR$/swarm-service/agent-application/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swarm-service/agent-container/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swarm-service/agent-dataaccess/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swarm-service/agent-domain/agent-application-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swarm-service/agent-domain/agent-domain-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swarm-service/agent-domain/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swarm-service/agent-messaging/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swarm-service/src/main/java" charset="UTF-8" />

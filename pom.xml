@@ -10,6 +10,8 @@
         <module>swarm-service/agent-dataaccess</module>
         <module>swarm-service/agent-domain</module>
         <module>swarm-service/agent-messaging</module>
+        <module>swarm-service/agent-domain/agent-domain-core</module>
+        <module>swarm-service/agent-domain/agent-application-service</module>
     </modules>
 
 
