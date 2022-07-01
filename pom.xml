@@ -37,7 +37,36 @@
         <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
     </properties>
 
-    <dependencyManagement></dependencyManagement>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.swarm.computing.system</groupId>
+                <artifactId>agent-domain-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.swarm.computing.system</groupId>
+                <artifactId>agent-application-service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.swarm.computing.system</groupId>
+                <artifactId>agent-application</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.swarm.computing.system</groupId>
+                <artifactId>agent-dataaccess</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.swarm.computing.system</groupId>
+                <artifactId>agent-messaging</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
     <dependencies></dependencies>
     <build>
         <plugins>
